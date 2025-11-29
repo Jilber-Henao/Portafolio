@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Jilber Henao (El FlaKo)</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -15,7 +15,10 @@
         <h1>Portafolio de Jilber</h1>
         <nav>
             <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#estudios">Estudios</a>
             <a href="#hobbies">Hobbies</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
 
@@ -71,6 +74,53 @@
 
         </div>
     </section>
+
+    <section id="proyectos" class="container">
+        <h2>Proyectos</h2>
+        <p>Rapifit</p>
+    </section>
+
+    <section id="estudios" class="container">
+        <h2>Estudios</h2>
+        <p>Mi formación académica y pronto tecnio en analisis y desarollo de software</p>
+    </section>
+
+    <section id="contacto" class="container">
+        <h2>Contacto</h2>
+        <p>¡Contáctame! Completa el formulario y me comunicaré contigo pronto.</p>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2025 Portafolio de Jilber. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
